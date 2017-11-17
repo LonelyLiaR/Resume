@@ -1,8 +1,8 @@
 # My Resume
 
 用 HTML + CSS 自写的一个网页简历.  
-[Priview A3 version](https://lonelyliar.github.io/Resume/A3-90/)
-[Priview A4 version](https://lonelyliar.github.io/Resume/A4-79/)
+[Priview A3 version](https://lonelyliar.github.io/Resume/A3-90/)  
+[Priview A4 version](https://lonelyliar.github.io/Resume/A4-79/)  
   
 ## Intro
   1. 本简历并不一定适用于部分职业...
