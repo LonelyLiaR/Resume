@@ -1,5 +1,5 @@
 # My Resume
 
 用 HTML + CSS 自写的一个网页简历.  
-[Preview Full version](https://lonelyliar.github.io/resume/full/)  
-[Preview A4 version](https://lonelyliar.github.io/resume/a4/)  
+[Preview HTML version](https://glitchboy.github.io/resume)  
+[Preview PDF version](https://glitchboy.github.io/resume/resume.pdf)  
