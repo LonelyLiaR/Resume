@@ -80,7 +80,7 @@
           </p>
           <p>
             学历：深圳技师学院 / 通信网络技术 / 大专 <br />
-            深圳大学 / 计算机网络技术 / 专科
+            　　　深圳大学 / 计算机网络技术 / 专科
           </p>
           <p>求职目标: 前端工程师 / Front End Engineer</p>
           <p>工作经验: 3年</p>
@@ -188,7 +188,7 @@
                 </p>
                 <p>
                   为办卡小白推出的带有权益的银行卡推荐列表页. banner,
-                  权益项等可后台配置.
+                  权益项等可通过后台配置.
                 </p>
               </li>
               <li>
@@ -202,7 +202,7 @@
                 <p class="pr">
                   <strong>使用技术栈: React, ReactRouter, Redux, <a href="https://styled-components.com/" target="_blank">styled-components</a></strong>
                 </p>
-                <p>可查询并生成个人信用报告的平台.</p>
+                <p>可查询并生成个人信用报告的平台. 其中使用到了原生 Canvas 进行复杂图形的绘制.</p>
               </li>
               <li>
                 <p class="pr">QQ小程序: 情侣头像 / 表情包大全 / 免费心理测试</p>
@@ -213,19 +213,24 @@
 
           <div class="block">
             <p class="hl">
-              2019/09 - 至今　　深圳市智安网络有限公司　　前端工程师/前端组长
+              2019/10 - 至今　　深圳市智安网络有限公司　　前端工程师/前端组长
             </p>
             <ul>
               <li>
                 <p class="pr">
                   <a href="https://cloud.anlian.hk/" target="_blank">安联云平台</a>
                   <p class="pr">
-                    <strong>使用技术栈: Typescript, React Hooks, Ant Design Pro (Antd + umi + dva)</strong>
+                    <strong>使用技术栈: Typescript, React Hooks, Ant Design Pro (Antd 4.x + umi 3.x + dva)</strong>
                   </p>
                 </p>
-                <p>
-                  公司自研的基于浏览器的公有云平台, 以互联网线上自助服务的方式, 为用户提供包含弹性云服务器、云硬盘、云网络等云计算IT基础设施服务.
+                <p class="pr">
+                  公司自研的基于浏览器的公有云平台, 以互联网线上自助服务的方式, 为用户提供包含弹性云服务器、云硬盘、云网络等云计算IT基础设施服务. 也可通过配置生成一套私有云平台.
                 </p>
+                <p>项目开始时使用的是 Antd 3.x, 后迁移至 4.x. 其中使用 Antd 进行二次封装了:</p>
+                <p>1. 可精确条件查询、带分页器和操作按钮的表格 (Table), 所有状态均在组件内部, 能够使用自定义 hook 获取/修改表格内的状态. 搜索条件和页码数可选是否缓存至 url query, 以便刷新后状态回溯.</p>
+                <p>2. 弹窗表单, 内置有输入类型 (Input)、密码类型 (Password, 具有强度提示功能)、下拉选择框类型 (Select, 可多选)、多行文本框类型 (Textarea)、自定义类型 (Item, 可传入其他组件或只展示用).</p>
+                <p>3. IP框组件, 能够基于规定范围生成普通IP或携带子网掩码的IP.</p>
+                <p>......</p>
               </li>
             </ul>
           </div>
